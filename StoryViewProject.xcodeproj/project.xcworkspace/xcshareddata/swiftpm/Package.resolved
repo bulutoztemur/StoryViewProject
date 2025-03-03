@@ -1,0 +1,15 @@
+{
+  "originHash" : "89703649201ec99d425ddffa66fa889bce74427eb907cfe44dc1b27993b31ad1",
+  "pins" : [
+    {
+      "identity" : "storyview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bulutoztemur/StoryView",
+      "state" : {
+        "revision" : "ce7542c470a51141e7c4f1eb1376775b44c4a2c8",
+        "version" : "1.6.0"
+      }
+    }
+  ],
+  "version" : 3
+}

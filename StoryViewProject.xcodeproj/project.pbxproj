@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		594FEF592D75E488003DBDA5 /* StoryView in Frameworks */ = {isa = PBXBuildFile; productRef = 594FEF582D75E488003DBDA5 /* StoryView */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		59C185BC2D7509F2005D8C3D /* StoryViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				594FEF592D75E488003DBDA5 /* StoryView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = StoryViewProject;
 			packageProductDependencies = (
+				594FEF582D75E488003DBDA5 /* StoryView */,
 			);
 			productName = StoryViewProject;
 			productReference = 59C185BC2D7509F2005D8C3D /* StoryViewProject.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 59C185B32D7509F2005D8C3D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				594FEF572D75E488003DBDA5 /* XCRemoteSwiftPackageReference "StoryView" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 59C185BD2D7509F2005D8C3D /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		594FEF572D75E488003DBDA5 /* XCRemoteSwiftPackageReference "StoryView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bulutoztemur/StoryView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		594FEF582D75E488003DBDA5 /* StoryView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 594FEF572D75E488003DBDA5 /* XCRemoteSwiftPackageReference "StoryView" */;
+			productName = StoryView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 59C185B42D7509F2005D8C3D /* Project object */;
 }
